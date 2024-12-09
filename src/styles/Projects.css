@@ -1,0 +1,23 @@
+#project-content {
+    padding: 2% 10vw;
+}
+
+.project-heading {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#project-list {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+@media screen and (max-width: 680px) {
+    #project-content {
+        padding: 2% 15px;
+    }
+}

@@ -1,12 +1,20 @@
-import "../styles/Navbar"
+import "../styles/Navbar.css"
 const Navbar = () => {
 
 
     return (
         <div className="nav-bar">
-            <h1 className="nav-btn">Home</h1>
-            <h1 className="nav-btn">Projects</h1>
-            <h1 className="nav-btn">About me</h1>
+            <p className="nav-btn" onClick={() => {
+                document.getElementById('landing').scrollIntoView({
+                    behavior: 'smooth'
+                })
+            }}>Home</p>
+            <p className="nav-btn" onClick={() => {
+                document.getElementById('projects').scrollIntoView({
+                    behavior: 'smooth'
+                })
+            }}>Projects</p>
+            <p className="nav-btn">About me</p>
         </div>
     )
 }

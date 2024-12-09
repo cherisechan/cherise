@@ -1,0 +1,26 @@
+.project-comp {
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #39354a;
+    display: flex;
+}
+
+.project-comp-content {
+    width: 50%;
+    height: 100%;
+}
+
+.project-comp-img {
+    width: 50%;
+    height: 100%;
+    background-color: #5f597a;
+    
+}
+
+@media screen and (max-width: 680px) {
+    .project-comp {
+        width: 100%
+    }
+    
+}
