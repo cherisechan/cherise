@@ -14,7 +14,8 @@ const Navbar = () => {
                     behavior: 'smooth'
                 })
             }}>Projects</p>
-            <p className="nav-btn">About me</p>
+            <p className="nav-btn">About</p>
+            <p className="nav-btn">Contact</p>
         </div>
     )
 }

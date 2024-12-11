@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Karla', sans-serif;
+}
+
+#root {
+  background-color: #292636;
 }
 
 .page {
@@ -45,10 +49,12 @@ h1, p {
 @keyframes box-left-in {
   from {
     transform: translateX(-200px);
+    opacity: 0;
   }
   
   to {
     transform: translateX(0px);
+    opacity: 1;
   }
 }
 
@@ -56,16 +62,18 @@ h1, p {
 @keyframes box-right-in {
   from {
     transform: translateX(200px);
+    opacity: 0;
   }
   
   to {
     transform: translateX(0px);
+    opacity: 1;
 
   }
 }
 
 
-@media screen and (min-width: 681px) {
+@media screen and (min-width: 730px) {
   .project-comp-left {
     animation: box-left-in linear;
     animation-timeline: view();
