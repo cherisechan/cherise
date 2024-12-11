@@ -7,8 +7,16 @@ const Projects = () => {
             <div id="project-content">
                 <h1 className="project-heading">Projects I've done</h1>
                 <div id="project-list">
-                    <ProjectComp direction={"left"} name={"Freerooms"} text={"Freerooms is a website to view room availibility on UNSW campus, and is a project under UNSW Software Development Society.\nDuring my time in the development subcomittee, I used MongoDB and TypeScript to design and implement a database system for a room review feature. I also improved mobile responsiveness and fixed frontend bugs with ReactJS "}></ProjectComp>
-                    <ProjectComp direction={"right"}></ProjectComp>
+                    <ProjectComp 
+                        direction={"left"} 
+                        name={"Freerooms"} 
+                        text={"Freerooms is a UNSW campus room availability website developed by the UNSW Software Development Society.\nDuring my time in the development subcommittee, I used MongoDB and TypeScript to create a database system for a room review feature, and improved mobile responsiveness and fixed frontend bugs using ReactJS."}
+                    />
+                    <ProjectComp 
+                        direction={"right"}
+                        name={"Presto"}
+                        text={"Presto is an innovative slideshow creation application built with ReactJS and Tailwind CSS. With a focus on performance and responsiveness, Presto allows users to seamlessly integrate text, images, code blocks and videos into their presentations."}
+                    />
                     <ProjectComp direction={"left"}></ProjectComp>
                     <ProjectComp direction={"right"}></ProjectComp>
                 </div>
