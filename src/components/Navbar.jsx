@@ -1,18 +1,16 @@
 import "../styles/Navbar.css"
+import { scrollIntoView } from "seamless-scroll-polyfill";
 const Navbar = () => {
 
 
     return (
         <div className="nav-bar">
             <p className="nav-btn" onClick={() => {
-                document.getElementById('landing').scrollIntoView({
-                    behavior: 'smooth'
-                })
+                scrollIntoView(document.getElementById('landing'), {behavior: 'smooth'})
+
             }}>Home</p>
             <p className="nav-btn" onClick={() => {
-                document.getElementById('projects').scrollIntoView({
-                    behavior: 'smooth'
-                })
+                scrollIntoView(document.getElementById('projects'), {behavior: 'smooth'})
             }}>Projects</p>
             <p className="nav-btn">About</p>
             <p className="nav-btn">Contact</p>
