@@ -4,6 +4,7 @@
     justify-content: center;
     padding: 90px 13vw 0 13vw;
     flex-direction: column;
+    position: relative
 }
 
 #main-landing {
@@ -47,6 +48,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 3vh;
 }
 
 .view-my-pro {
@@ -81,5 +84,9 @@
     }
     .circle {
         max-width: 200px;
+    }
+
+    .view-pro {
+        display: none;
     }
 }
