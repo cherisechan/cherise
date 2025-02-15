@@ -2,7 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 15vw;
+    padding: 90px 13vw 0 13vw;
+    flex-direction: column;
+}
+
+#main-landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 #landing-left, #landing-right {
@@ -34,8 +42,23 @@
     background-color: #8561c7;
 }
 
+.view-pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-my-pro {
+    color: rgba(255, 255, 255, 0.373);
+}
+
+.arrow-down {
+    color: rgba(255, 255, 255, 0.373);
+}
+
 @media screen and (max-width: 665px) {
-    #landing {
+    #main-landing {
         flex-direction: column-reverse;
         padding: 0 6vw;
         padding-top: 70px;
@@ -54,7 +77,7 @@
 
     #landing-right {
         align-items: center;
-        margin-bottom: 16%;
+        margin-bottom: 2vh;
     }
     .circle {
         max-width: 200px;
