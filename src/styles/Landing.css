@@ -41,6 +41,10 @@
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: #8561c7;
+    background-image: url('../assets/me.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .view-pro {
@@ -50,6 +54,11 @@
     align-items: center;
     position: absolute;
     bottom: 3vh;
+    font-size: 1.2em;
+}
+
+.view-pro:hover {
+    cursor: pointer;
 }
 
 .view-my-pro {
@@ -85,7 +94,9 @@
     .circle {
         max-width: 200px;
     }
+}
 
+@media screen and (max-width: 655px), screen and (max-height: 580px) {
     .view-pro {
         display: none;
     }

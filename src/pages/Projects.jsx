@@ -17,8 +17,11 @@ const Projects = () => {
                         name={"Presto"}
                         text={"Presto is an innovative slideshow creation application built with ReactJS and Tailwind CSS. With a focus on performance and responsiveness, Presto allows users to seamlessly integrate text, images, code blocks and videos into their presentations."}
                     />
-                    <ProjectComp direction={"left"}></ProjectComp>
-                    <ProjectComp direction={"right"}></ProjectComp>
+                    <ProjectComp
+                        direction={"left"}
+                        name={ "UniHack 2024"}
+                        text={"I participatd in Atlassian's hackathon with 4 other members. We developed the idea for a social media app that promts users with daily dares to complete and showcased the concept using ReactJS."}
+                    />
                 </div>
             </div>
         </div>
