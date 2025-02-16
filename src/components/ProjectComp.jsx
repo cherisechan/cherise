@@ -60,21 +60,21 @@ const ProjectComp = ({direction, name, text}) => {
                 {
                     name === "Freerooms" && 
                     <Waypoint onEnter={handleVideoStartF}>
-                        <video ref={freeroomsVideo} className="pro-vid" src={freeroomsVid} onClick={handleVideoStartF} autoPlay muted loop></video>
+                        <video ref={freeroomsVideo} className="pro-vid" src={freeroomsVid} onClick={handleVideoStartF} autoPlay playsInline muted loop></video>
                     </Waypoint>
                 }
 
                 {
                     name === "Presto" &&
                     <Waypoint onEnter={handleVideoStartP}>
-                        <video ref={prestoVideo} className="pro-vid" src={prestoVid} onClick={handleVideoStartP} autoPlay muted loop></video>
+                        <video ref={prestoVideo} className="pro-vid" src={prestoVid} onClick={handleVideoStartP} autoPlay playsInline muted loop></video>
                     </Waypoint>
                 }
 
                 {
                     name === "UniHack 2024" &&
                     <Waypoint onEnter={handleVideoStartU}>
-                        <video ref={uniHackVideo} className="pro-vid" src={uniHack} onClick={handleVideoStartU} autoPlay muted loop></video>
+                        <video ref={uniHackVideo} className="pro-vid" src={uniHack} onClick={handleVideoStartU} autoPlay playsInline muted loop></video>
                     </Waypoint>
                 }
                 
