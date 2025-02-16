@@ -9,7 +9,7 @@ const Landing = () => {
                 <div id="landing-left">
                     <h1 className="welcome">Hello,</h1>
                     <h1 className="welcome">I'm Cherise!</h1>
-                    <p className="about">I'm a passionate software engineer studying at UNSW. Welcome to my website :D</p>
+                    <p className="about">I'm a penultimate software engineering student at UNSW. Welcome to my website :D</p>
                 </div>
                 <div id="landing-right">
                     <div className="circle"></div>

@@ -13,9 +13,8 @@ const Navbar = () => {
                 scrollIntoView(document.getElementById('projects'), {behavior: 'smooth'})
             }}>Projects</p>
             <p className="nav-btn" onClick={() => {
-                scrollIntoView(document.getElementById('about'), {behavior: 'smooth'})
-            }}>About</p>
-            <p className="nav-btn">Contact</p>
+                scrollIntoView(document.getElementById('contact'), {behavior: 'smooth'})
+            }}>Contact</p>
         </div>
     )
 }
