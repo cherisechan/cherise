@@ -20,7 +20,7 @@ const Projects = () => {
                     <ProjectComp
                         direction={"left"}
                         name={ "UniHack 2024"}
-                        text={"I participatd in Atlassian's hackathon with 4 other members. We developed the idea for a social media app that promts users with daily dares to complete and showcased the concept using ReactJS."}
+                        text={"I participatd in a hackathon with 4 other members. We developed the idea for a social media app that promts users with daily dares to complete, and showcased the concept using ReactJS."}
                     />
                 </div>
             </div>
