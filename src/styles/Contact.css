@@ -1,0 +1,27 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7vh 0;
+    width: 100%;
+}
+
+#contact-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+#contact-list {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    width: 50%;
+    max-width: 400px;
+    justify-content: space-around;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: #655a98;
+}
