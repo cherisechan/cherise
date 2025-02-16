@@ -2,23 +2,26 @@ import { Waypoint } from 'react-waypoint'
 import { useEffect, useRef, useState } from 'react'
 import "../styles/ProjectComp.css"
 import freeroomsVid from "../assets/freerooms.mp4"
-import prestoVid from "../assets/presto.mov"
-import uniHack from "../assets/uniHack.mov"
+import prestoVid from "../assets/presto.mp4"
+import uniHack from "../assets/uniHack.mp4"
 const ProjectComp = ({direction, name, text}) => {
     const freeroomsVideo = useRef();
-    const handleVideoStartF = () => {
+    const handleVideoStartF = (e) => {
+        e.preventDefault();
         freeroomsVideo.current.currentTime = 0;
         freeroomsVideo.current.play();
     }
 
     const prestoVideo = useRef();
-    const handleVideoStartP = () => {
+    const handleVideoStartP = (e) => {
+        e.preventDefault();
         prestoVideo.current.currentTime = 0;
         prestoVideo.current.play();
     }
 
     const uniHackVideo = useRef();
-    const handleVideoStartU = () => {
+    const handleVideoStartU = (e) => {
+        e.preventDefault();
         uniHackVideo.current.currentTime = 0;
         uniHackVideo.current.play();
     }
