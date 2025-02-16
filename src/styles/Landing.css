@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 90px 13vw 0 13vw;
+    padding: 70px 13vw 0 13vw;
     flex-direction: column;
     position: relative
 }
