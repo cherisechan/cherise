@@ -1,7 +1,7 @@
 import { Waypoint } from 'react-waypoint'
 import { useEffect, useRef, useState } from 'react'
 import "../styles/ProjectComp.css"
-import freeroomsVid from "../assets/freerooms.mov"
+import freeroomsVid from "../assets/freerooms.mp4"
 import prestoVid from "../assets/presto.mov"
 import uniHack from "../assets/uniHack.mov"
 const ProjectComp = ({direction, name, text}) => {
