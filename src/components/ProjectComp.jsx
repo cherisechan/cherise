@@ -6,22 +6,19 @@ import prestoVid from "../assets/presto.mp4"
 import uniHack from "../assets/uniHack.mp4"
 const ProjectComp = ({direction, name, text}) => {
     const freeroomsVideo = useRef();
-    const handleVideoStartF = (e) => {
-        e.preventDefault();
+    const handleVideoStartF = () => {
         freeroomsVideo.current.currentTime = 0;
         freeroomsVideo.current.play();
     }
 
     const prestoVideo = useRef();
-    const handleVideoStartP = (e) => {
-        e.preventDefault();
+    const handleVideoStartP = () => {
         prestoVideo.current.currentTime = 0;
         prestoVideo.current.play();
     }
 
     const uniHackVideo = useRef();
-    const handleVideoStartU = (e) => {
-        e.preventDefault();
+    const handleVideoStartU = () => {
         uniHackVideo.current.currentTime = 0;
         uniHackVideo.current.play();
     }

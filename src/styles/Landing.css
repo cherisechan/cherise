@@ -70,10 +70,14 @@
 }
 
 @media screen and (max-width: 665px) {
+    #landing {
+        justify-content: flex-start;
+    }
+
     #main-landing {
         flex-direction: column-reverse;
         padding: 0 6vw;
-        padding-top: 70px;
+        padding-top: 6vh;
     }
     #landing-right, #landing-left {
         display: flex;
@@ -93,6 +97,7 @@
     }
     .circle {
         max-width: 200px;
+        margin-bottom: 6vh;
     }
 }
 
